@@ -25,8 +25,8 @@ public class BrowserRepeater {
     //this server is one use only.  It dies after servicing one client.  Will learn threading next week... 
     BrowserRepeater(){
         try{
-            System.out.println("Server Started");
-            ServerSocket ss = new ServerSocket(8887);           
+            System.out.println("Server Start");
+            ServerSocket ss = new ServerSocket(8888);           
             Socket aSocket = ss.accept();
             //accept pauses until a client connects
             
