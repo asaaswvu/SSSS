@@ -27,7 +27,7 @@ public class BrowserRepeater {
         try{
 
             System.out.println("Server Started");
-            ServerSocket ss = new ServerSocket(8889);           
+            ServerSocket ss = new ServerSocket(8890);           
             Socket aSocket = ss.accept();
             //accept pauses until a client connects
             
